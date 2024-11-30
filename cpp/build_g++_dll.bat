@@ -1,0 +1,1 @@
+g++ -shared -fopenmp -Ofast -ffast-math -fPIC -std=c++17 -mavx2 -mfma -I"./vectormath" ultrafast_crs.cpp crs_cpp.cpp crs_simd.cpp -o ultrafast_crs.dll

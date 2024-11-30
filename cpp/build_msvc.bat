@@ -1,0 +1,1 @@
+cl /LD /MD /EHsc /openmp /Ox /std:c++17 /fp:fast /arch:AVX2 /favor:INTEL64 /Fa ultrafast_crs.cpp crs_cpp.cpp crs_simd.cpp
