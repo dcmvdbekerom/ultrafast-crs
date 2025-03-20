@@ -43,8 +43,9 @@ fnames = [
     'J_clip_data.npz',
     'EvJ_data.npz',
     ]
-url = 'https://dcmvdbekerom.github.io/ultrafast-crs-data/data/CH4_v2/'
-fpath = './data/CH4_v2/'
+spec = 'CH4_v1'
+url = 'https://dcmvdbekerom.github.io/ultrafast-crs-data/data/{:s}/'.format(spec)
+fpath = './data/{:s}/'.format(spec)
 
 arr_dict = {}
 
